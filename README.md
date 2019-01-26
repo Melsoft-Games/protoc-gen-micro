@@ -8,7 +8,7 @@ to include the micro plugin but have since moved to protoc-gen-micro.
 ## Install
 
 ```
-go get github.com/micro/protoc-gen-micro
+go get github.com/Melsoft-Games/protoc-gen-micro
 ```
 
 Also required: 
