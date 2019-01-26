@@ -1,4 +1,4 @@
-Reference imports to suppress errors if they are not otherwise used.// Go support for Protocol Buffers - Google's data interchange format
+// Go support for Protocol Buffers - Google's data interchange format
 //
 // Copyright 2010 The Go Authors.  All rights reserved.
 // https://github.com/golang/protobuf
