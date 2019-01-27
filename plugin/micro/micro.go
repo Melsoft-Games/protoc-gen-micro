@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/Melsoft-Games/protoc-gen-micro/generator"
 	pb "github.com/golang/protobuf/protoc-gen-go/descriptor"
-	"github.com/micro/protoc-gen-micro/generator"
 )
 
 // Paths for packages used by code generated in this file,
