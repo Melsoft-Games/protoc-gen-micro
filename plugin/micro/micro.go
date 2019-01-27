@@ -116,7 +116,7 @@ func (g *micro) generateService(file *generator.FileDescriptor, service *pb.Serv
 		serviceName = pkg
 	}
 	servName := generator.CamelCase(origServName)
-	servAlias := servName + "Service"
+	servAlias := servName + "Client"
 
 	// strip suffix
 	if strings.HasSuffix(servAlias, "ServiceService") {
