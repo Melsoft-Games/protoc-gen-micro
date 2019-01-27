@@ -249,7 +249,7 @@ func (g *micro) generateClientMethod(reqServ, servName, serviceDescVar string, m
 	inType := g.typeName(method.GetInputType())
 	outType := g.typeName(method.GetOutputType())
 
-	servAlias := servName + "Service"
+	servAlias := servName + "Client"
 
 	// strip suffix
 	if strings.HasSuffix(servAlias, "ServiceService") {
